@@ -8,8 +8,8 @@ public class Main {
         test[0] = 1;
         test[1] = 2;
         test[2] = 3;
-        System.out.println(test[0] + " " + test[1] + " " + test[2]);
-        System.out.print("");
+        System.out.print(test[0] + " " + test[1] + " " + test[2]);
+        System.out.println();
         System.out.println(test[2] + " " + test[1] + " " + test[0]);
 
 
@@ -18,7 +18,6 @@ public class Main {
         test2[1] = 7.654;
         test2[2] = 9.986;
         System.out.println(test2[0] + " " + test2[1] + " " + test2[2]);
-        System.out.print("");
         System.out.println(test2[2] + " " + test2[1] + " " + test2[0]);
 
         int[] one = {64, 250, 31};
@@ -35,7 +34,13 @@ public class Main {
 
                 one2[i]++ ;
             }
-            System.out.println( one2[i]);
+            System.out.print( one2[i]);
+            if (i!= one2.length - 1 ) {
+                System.out.print(", ");
+
+            }
+            
+
 
 
 
